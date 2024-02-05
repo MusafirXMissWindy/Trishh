@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Harry+P&display=swap');
+
+@font-face {
+    font-family: 'Harry'; /* Choose a name for your custom font */
+    src: url('fonts/hm.ttf') format('truetype'); /* Adjust the file path and format */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://wallpaperaccess.com/full/871025.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Harry', sans-serif; /* Apply the Harry P font to the container */
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px;
+    color: #fff;
+    background-color: #dfbb1a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #dfc010;
+}
